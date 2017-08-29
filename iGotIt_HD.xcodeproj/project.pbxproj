@@ -7,39 +7,221 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55061DF31437970800AB8A23 /* UNCHK_ALL.png in Resources */ = {isa = PBXBuildFile; fileRef = 55061DF11437970800AB8A23 /* UNCHK_ALL.png */; };
+		55080868145DE631004F0878 /* TAB_FAV.png in Resources */ = {isa = PBXBuildFile; fileRef = 55080867145DE631004F0878 /* TAB_FAV.png */; };
+		5508086C145E0939004F0878 /* NotificationPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5508086B145E0939004F0878 /* NotificationPanel.m */; };
+		550998081433F5320035D097 /* HelpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 550998071433F5320035D097 /* HelpView.m */; };
+		5509B6E0141AC30E0030E969 /* CustomModalAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 5509B6DF141AC30D0030E969 /* CustomModalAlert.m */; };
+		5509B6E4141BACEB0030E969 /* UITB_PURPLE_NRM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5509B6E2141BACEB0030E969 /* UITB_PURPLE_NRM.png */; };
+		5509B6E5141BACEB0030E969 /* UITB_PURPLE_SEL.png in Resources */ = {isa = PBXBuildFile; fileRef = 5509B6E3141BACEB0030E969 /* UITB_PURPLE_SEL.png */; };
+		5509B6E8141C64C60030E969 /* UITB_GREEN_NRM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5509B6E6141C64C30030E969 /* UITB_GREEN_NRM.png */; };
+		5509B6E9141C64C60030E969 /* UITB_GREEN_SEL.png in Resources */ = {isa = PBXBuildFile; fileRef = 5509B6E7141C64C50030E969 /* UITB_GREEN_SEL.png */; };
+		5510A80F1438E77000B4AC09 /* Confirm.png in Resources */ = {isa = PBXBuildFile; fileRef = 5510A8091438E77000B4AC09 /* Confirm.png */; };
+		5510A8101438E77000B4AC09 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 5510A80A1438E77000B4AC09 /* delete.png */; };
+		5510A8111438E77000B4AC09 /* Favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = 5510A80B1438E77000B4AC09 /* Favorites.png */; };
+		5510A8121438E77000B4AC09 /* Insert.png in Resources */ = {isa = PBXBuildFile; fileRef = 5510A80C1438E77000B4AC09 /* Insert.png */; };
+		5510A8131438E77000B4AC09 /* Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 5510A80D1438E77000B4AC09 /* Plus.png */; };
+		5510A8141438E77000B4AC09 /* RapidAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = 5510A80E1438E77000B4AC09 /* RapidAdd.png */; };
+		5510A818143CFEC800B4AC09 /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = 5510A817143CFEC800B4AC09 /* Child.m */; };
+		5510A81B143CFEC900B4AC09 /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5510A81A143CFEC900B4AC09 /* Parent.m */; };
+		5510A81E143CFEC900B4AC09 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 5510A81D143CFEC900B4AC09 /* Item.m */; };
+		5516067C140EF087006F4D34 /* UIToolbarButton2StateNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 5516067A140EF087006F4D34 /* UIToolbarButton2StateNormal.png */; };
+		5516067D140EF087006F4D34 /* UIToolbarButton2StateSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5516067B140EF087006F4D34 /* UIToolbarButton2StateSelected.png */; };
+		551F63171409A821008B377E /* DrawingClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 551F63161409A821008B377E /* DrawingClass.m */; };
+		551F631B1409BA98008B377E /* UIToolbarButtonStateNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 551F63191409BA98008B377E /* UIToolbarButtonStateNormal.png */; };
+		551F631C1409BA98008B377E /* UIToolbarButtonStateSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 551F631A1409BA98008B377E /* UIToolbarButtonStateSelected.png */; };
+		551F6322140A78F2008B377E /* CustomBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 551F6321140A78F2008B377E /* CustomBarButtonItem.m */; };
+		551F6329140AFEE0008B377E /* FavoriteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 551F6328140AFECB008B377E /* FavoriteCell.m */; };
+		5522AAE0145BA277005562F2 /* CoreAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5522AADF145BA277005562F2 /* CoreAnimation.m */; };
+		5522AAE4145DA843005562F2 /* IPhoneColorGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5522AAE3145DA843005562F2 /* IPhoneColorGridViewController.m */; };
+		55357A4A142A897500F3C9DB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 55357A49142A897500F3C9DB /* Settings.bundle */; };
+		55357A4E142A8FD800F3C9DB /* SettingsClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 55357A4D142A8FD800F3C9DB /* SettingsClass.m */; };
+		55395392147703C700CD4C2F /* UIVerticalToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 55395391147703C700CD4C2F /* UIVerticalToolBar.m */; };
+		553953961478629A00CD4C2F /* iCloudCoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 553953951478629A00CD4C2F /* iCloudCoreData.m */; };
+		554836EB144767CE00EC45ED /* AppLogo-72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 554836EA144767CD00EC45ED /* AppLogo-72x72.png */; };
+		554F4AF713E86CEC00450895 /* ControlExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 554F4AF613E86CEC00450895 /* ControlExtras.m */; };
+		554F4AFA13E87BF900450895 /* ParentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 554F4AF913E87BF900450895 /* ParentCell.m */; };
+		5557E0B6141D7611006965F3 /* iGotIt_HD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5591CF0A13E455E900D43C03 /* iGotIt_HD.xcdatamodeld */; };
+		5575801114604F3A0037A98E /* TAB_FAV@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5575801014604F3A0037A98E /* TAB_FAV@2x.png */; };
+		55758014146050E90037A98E /* TAB_LIST.png in Resources */ = {isa = PBXBuildFile; fileRef = 55758012146050E90037A98E /* TAB_LIST.png */; };
+		55758015146050E90037A98E /* TAB_LIST@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55758013146050E90037A98E /* TAB_LIST@2x.png */; };
+		557580181460C0C10037A98E /* NPCloseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 557580171460C0C10037A98E /* NPCloseButton.m */; };
+		5591380E14087BBE008BA73A /* CheckBox1Checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 5591380514087BBE008BA73A /* CheckBox1Checked.png */; };
+		5591380F14087BBE008BA73A /* CHK_BOX.png in Resources */ = {isa = PBXBuildFile; fileRef = 5591380614087BBE008BA73A /* CHK_BOX.png */; };
+		5591381214087BBE008BA73A /* orderAscending.png in Resources */ = {isa = PBXBuildFile; fileRef = 5591380914087BBE008BA73A /* orderAscending.png */; };
+		5591381314087BBE008BA73A /* orderDescending.png in Resources */ = {isa = PBXBuildFile; fileRef = 5591380A14087BBE008BA73A /* orderDescending.png */; };
+		5591381414087BBE008BA73A /* orderManual.png in Resources */ = {isa = PBXBuildFile; fileRef = 5591380B14087BBE008BA73A /* orderManual.png */; };
+		5591381814093633008BA73A /* NotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5591381714093633008BA73A /* NotificationView.m */; };
+		5591381E1409409E008BA73A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5591381D1409409E008BA73A /* QuartzCore.framework */; };
+		55913824140964CE008BA73A /* crystalPurple.png in Resources */ = {isa = PBXBuildFile; fileRef = 55913821140964CE008BA73A /* crystalPurple.png */; };
+		55913825140964CE008BA73A /* crystalRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 55913822140964CE008BA73A /* crystalRed.png */; };
+		5591382714096DDF008BA73A /* crystalGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5591382614096DDF008BA73A /* crystalGreen.png */; };
 		5591CEF713E455E900D43C03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5591CEF613E455E900D43C03 /* UIKit.framework */; };
-		5591CEF913E455E900D43C03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5591CEF813E455E900D43C03 /* Foundation.framework */; };
+		5591CEF913E455E900D43C03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5591CEF813E455E900D43C03 /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		5591CEFB13E455E900D43C03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5591CEFA13E455E900D43C03 /* CoreGraphics.framework */; };
 		5591CEFD13E455E900D43C03 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5591CEFC13E455E900D43C03 /* CoreData.framework */; };
 		5591CF0313E455E900D43C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5591CF0113E455E900D43C03 /* InfoPlist.strings */; };
 		5591CF0513E455E900D43C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5591CF0413E455E900D43C03 /* main.m */; };
 		5591CF0913E455E900D43C03 /* iGotIt_HDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5591CF0813E455E900D43C03 /* iGotIt_HDAppDelegate.m */; };
-		5591CF0C13E455E900D43C03 /* iGotIt_HD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5591CF0A13E455E900D43C03 /* iGotIt_HD.xcdatamodeld */; };
 		5591CF0F13E455E900D43C03 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5591CF0E13E455E900D43C03 /* MasterViewController.m */; };
-		5591CF1213E455E900D43C03 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5591CF1113E455E900D43C03 /* DetailViewController.m */; };
 		5591CF1513E455E900D43C03 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5591CF1313E455E900D43C03 /* MasterViewController.xib */; };
-		5591CF1813E455E900D43C03 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5591CF1613E455E900D43C03 /* DetailViewController.xib */; };
+		5591CF2613E4577D00D43C03 /* ActionClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5591CF1F13E4577D00D43C03 /* ActionClass.m */; };
+		5591CF8E13E4719800D43C03 /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5591CF8C13E4719800D43C03 /* DetailTableViewController.m */; };
+		5591CF8F13E4719800D43C03 /* DetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5591CF8D13E4719800D43C03 /* DetailTableViewController.xib */; };
+		5591CF9A13E4789000D43C03 /* ChildTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5591CF9813E4789000D43C03 /* ChildTableViewController.m */; };
+		559317F11458BDF50025DB4F /* AppLogo-retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 559317F01458BDF50025DB4F /* AppLogo-retina.png */; };
+		559317F31458BE800025DB4F /* AppLogo-57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 559317F21458BE800025DB4F /* AppLogo-57x57.png */; };
+		559317F81458C1D10025DB4F /* IPhoneParentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559317F71458C1D10025DB4F /* IPhoneParentTableViewController.m */; };
+		559317FB1458C4E10025DB4F /* IPhoneFavoriteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559317FA1458C4E10025DB4F /* IPhoneFavoriteTableViewController.m */; };
+		559317FE1458C4F20025DB4F /* IPhoneChildTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559317FD1458C4F20025DB4F /* IPhoneChildTableViewController.m */; };
+		559318011458D0E00025DB4F /* IPhoneItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559318001458D0E00025DB4F /* IPhoneItemViewController.m */; };
+		559B3EBC13E9C4B70023D9EE /* AddItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559B3EBA13E9C4B70023D9EE /* AddItemTableViewController.m */; };
+		559B3EBD13E9C4B70023D9EE /* AddItemTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 559B3EBB13E9C4B70023D9EE /* AddItemTableViewController.xib */; };
+		559B3EE513F71CC30023D9EE /* ColorGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559B3EE413F71CC30023D9EE /* ColorGridViewController.m */; };
+		559B3EEC13F75FFB0023D9EE /* UIColorRGBValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 559B3EEB13F75FFB0023D9EE /* UIColorRGBValueTransformer.m */; };
+		559B3EF913F9FAE80023D9EE /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 559B3EF813F9FAE70023D9EE /* CustomCellBackground.m */; };
+		559B3F0013F9FEC20023D9EE /* GradientFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 559B3EFF13F9FEC00023D9EE /* GradientFunction.m */; };
+		55B193A2144FC0A900F38986 /* UITB_GOLD_NRM.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B193A0144FC0A900F38986 /* UITB_GOLD_NRM.png */; };
+		55B193A3144FC0A900F38986 /* UITB_GOLD_SEL.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B193A1144FC0A900F38986 /* UITB_GOLD_SEL.png */; };
+		55B193A71454EB4000F38986 /* FAV_GOLD.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B193A41454EB3E00F38986 /* FAV_GOLD.png */; };
+		55B193A81454EB4000F38986 /* FAV_GREEN.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B193A51454EB3E00F38986 /* FAV_GREEN.png */; };
+		55B193A91454EB4000F38986 /* FAV_PURPLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B193A61454EB3F00F38986 /* FAV_PURPLE.png */; };
+		55B193AB1454F7D100F38986 /* FAV_SEL.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B193AA1454F7D100F38986 /* FAV_SEL.png */; };
+		55B193B21454FEC800F38986 /* CHK_ALL_GOLD.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B193AC1454FEC500F38986 /* CHK_ALL_GOLD.png */; };
+		55B193B31454FEC800F38986 /* CHK_ALL_GREEN.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B193AD1454FEC600F38986 /* CHK_ALL_GREEN.png */; };
+		55B193B41454FEC800F38986 /* CHK_ALL_PURPLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B193AE1454FEC600F38986 /* CHK_ALL_PURPLE.png */; };
+		55B193B51454FEC800F38986 /* CHK_GOLD.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B193AF1454FEC700F38986 /* CHK_GOLD.png */; };
+		55B193B61454FEC800F38986 /* CHK_GREEN.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B193B01454FEC800F38986 /* CHK_GREEN.png */; };
+		55B193B71454FEC800F38986 /* CHK_PURPLE.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B193B11454FEC800F38986 /* CHK_PURPLE.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5591CEF213E455E900D43C03 /* iGotIt_HD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGotIt_HD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55061DF11437970800AB8A23 /* UNCHK_ALL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UNCHK_ALL.png; path = "iGotIt Images/UNCHK_ALL.png"; sourceTree = "<group>"; };
+		55080867145DE631004F0878 /* TAB_FAV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TAB_FAV.png; path = "iGotIt Images/TAB_FAV.png"; sourceTree = "<group>"; };
+		5508086A145E0939004F0878 /* NotificationPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationPanel.h; sourceTree = "<group>"; };
+		5508086B145E0939004F0878 /* NotificationPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationPanel.m; sourceTree = "<group>"; };
+		550998061433F5320035D097 /* HelpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpView.h; sourceTree = "<group>"; };
+		550998071433F5320035D097 /* HelpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpView.m; sourceTree = "<group>"; };
+		5509B6DE141AC30D0030E969 /* CustomModalAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomModalAlert.h; sourceTree = "<group>"; };
+		5509B6DF141AC30D0030E969 /* CustomModalAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomModalAlert.m; sourceTree = "<group>"; };
+		5509B6E2141BACEB0030E969 /* UITB_PURPLE_NRM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UITB_PURPLE_NRM.png; path = "iGotIt Images/UITB_PURPLE_NRM.png"; sourceTree = "<group>"; };
+		5509B6E3141BACEB0030E969 /* UITB_PURPLE_SEL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UITB_PURPLE_SEL.png; path = "iGotIt Images/UITB_PURPLE_SEL.png"; sourceTree = "<group>"; };
+		5509B6E6141C64C30030E969 /* UITB_GREEN_NRM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UITB_GREEN_NRM.png; path = "iGotIt Images/UITB_GREEN_NRM.png"; sourceTree = "<group>"; };
+		5509B6E7141C64C50030E969 /* UITB_GREEN_SEL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UITB_GREEN_SEL.png; path = "iGotIt Images/UITB_GREEN_SEL.png"; sourceTree = "<group>"; };
+		5510A8091438E77000B4AC09 /* Confirm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Confirm.png; path = "iGotIt Images/Confirm.png"; sourceTree = "<group>"; };
+		5510A80A1438E77000B4AC09 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delete.png; path = "iGotIt Images/delete.png"; sourceTree = "<group>"; };
+		5510A80B1438E77000B4AC09 /* Favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Favorites.png; path = "iGotIt Images/Favorites.png"; sourceTree = "<group>"; };
+		5510A80C1438E77000B4AC09 /* Insert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Insert.png; path = "iGotIt Images/Insert.png"; sourceTree = "<group>"; };
+		5510A80D1438E77000B4AC09 /* Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Plus.png; path = "iGotIt Images/Plus.png"; sourceTree = "<group>"; };
+		5510A80E1438E77000B4AC09 /* RapidAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RapidAdd.png; path = "iGotIt Images/RapidAdd.png"; sourceTree = "<group>"; };
+		5510A816143CFEC800B4AC09 /* Child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		5510A817143CFEC800B4AC09 /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
+		5510A819143CFEC900B4AC09 /* Parent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
+		5510A81A143CFEC900B4AC09 /* Parent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
+		5510A81C143CFEC900B4AC09 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		5510A81D143CFEC900B4AC09 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		5510A81F143CFF7A00B4AC09 /* iGotIt_HD Release v1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iGotIt_HD Release v1.xcdatamodel"; sourceTree = "<group>"; };
+		5516067A140EF087006F4D34 /* UIToolbarButton2StateNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIToolbarButton2StateNormal.png; path = "iGotIt Images/UIToolbarButton2StateNormal.png"; sourceTree = "<group>"; };
+		5516067B140EF087006F4D34 /* UIToolbarButton2StateSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIToolbarButton2StateSelected.png; path = "iGotIt Images/UIToolbarButton2StateSelected.png"; sourceTree = "<group>"; };
+		551F63151409A821008B377E /* DrawingClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingClass.h; sourceTree = "<group>"; };
+		551F63161409A821008B377E /* DrawingClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingClass.m; sourceTree = "<group>"; };
+		551F63191409BA98008B377E /* UIToolbarButtonStateNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIToolbarButtonStateNormal.png; path = "iGotIt Images/UIToolbarButtonStateNormal.png"; sourceTree = "<group>"; };
+		551F631A1409BA98008B377E /* UIToolbarButtonStateSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIToolbarButtonStateSelected.png; path = "iGotIt Images/UIToolbarButtonStateSelected.png"; sourceTree = "<group>"; };
+		551F6320140A78F2008B377E /* CustomBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBarButtonItem.h; sourceTree = "<group>"; };
+		551F6321140A78F2008B377E /* CustomBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBarButtonItem.m; sourceTree = "<group>"; };
+		551F6327140AFEBC008B377E /* FavoriteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteCell.h; sourceTree = "<group>"; };
+		551F6328140AFECB008B377E /* FavoriteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteCell.m; sourceTree = "<group>"; };
+		5522AADE145BA277005562F2 /* CoreAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimation.h; sourceTree = "<group>"; };
+		5522AADF145BA277005562F2 /* CoreAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimation.m; sourceTree = "<group>"; };
+		5522AAE2145DA843005562F2 /* IPhoneColorGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhoneColorGridViewController.h; sourceTree = "<group>"; };
+		5522AAE3145DA843005562F2 /* IPhoneColorGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhoneColorGridViewController.m; sourceTree = "<group>"; };
+		55357A49142A897500F3C9DB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		55357A4C142A8FD800F3C9DB /* SettingsClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsClass.h; sourceTree = "<group>"; };
+		55357A4D142A8FD800F3C9DB /* SettingsClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsClass.m; sourceTree = "<group>"; };
+		55395390147703C700CD4C2F /* UIVerticalToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVerticalToolBar.h; sourceTree = "<group>"; };
+		55395391147703C700CD4C2F /* UIVerticalToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVerticalToolBar.m; sourceTree = "<group>"; };
+		553953941478629A00CD4C2F /* iCloudCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCloudCoreData.h; sourceTree = "<group>"; };
+		553953951478629A00CD4C2F /* iCloudCoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCloudCoreData.m; sourceTree = "<group>"; };
+		553953971478651D00CD4C2F /* iGotIt_v1.1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = iGotIt_v1.1.entitlements; sourceTree = "<group>"; };
+		554836EA144767CD00EC45ED /* AppLogo-72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppLogo-72x72.png"; sourceTree = "<group>"; };
+		554F4AF513E86CEC00450895 /* ControlExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlExtras.h; sourceTree = "<group>"; };
+		554F4AF613E86CEC00450895 /* ControlExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlExtras.m; sourceTree = "<group>"; };
+		554F4AF813E87BF900450895 /* ParentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentCell.h; sourceTree = "<group>"; };
+		554F4AF913E87BF900450895 /* ParentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentCell.m; sourceTree = "<group>"; };
+		5557E0B5141D6FAD006965F3 /* iGotIt_HD 1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iGotIt_HD 1.xcdatamodel"; sourceTree = "<group>"; };
+		5575801014604F3A0037A98E /* TAB_FAV@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TAB_FAV@2x.png"; path = "iGotIt Images/TAB_FAV@2x.png"; sourceTree = "<group>"; };
+		55758012146050E90037A98E /* TAB_LIST.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TAB_LIST.png; path = "iGotIt Images/TAB_LIST.png"; sourceTree = "<group>"; };
+		55758013146050E90037A98E /* TAB_LIST@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "TAB_LIST@2x.png"; path = "iGotIt Images/TAB_LIST@2x.png"; sourceTree = "<group>"; };
+		557580161460C0C10037A98E /* NPCloseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPCloseButton.h; sourceTree = "<group>"; };
+		557580171460C0C10037A98E /* NPCloseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPCloseButton.m; sourceTree = "<group>"; };
+		5591380514087BBE008BA73A /* CheckBox1Checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CheckBox1Checked.png; path = "iGotIt Images/CheckBox1Checked.png"; sourceTree = "<group>"; };
+		5591380614087BBE008BA73A /* CHK_BOX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CHK_BOX.png; path = "iGotIt Images/CHK_BOX.png"; sourceTree = "<group>"; };
+		5591380914087BBE008BA73A /* orderAscending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orderAscending.png; path = "iGotIt Images/orderAscending.png"; sourceTree = "<group>"; };
+		5591380A14087BBE008BA73A /* orderDescending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orderDescending.png; path = "iGotIt Images/orderDescending.png"; sourceTree = "<group>"; };
+		5591380B14087BBE008BA73A /* orderManual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orderManual.png; path = "iGotIt Images/orderManual.png"; sourceTree = "<group>"; };
+		5591381614093633008BA73A /* NotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationView.h; sourceTree = "<group>"; };
+		5591381714093633008BA73A /* NotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationView.m; sourceTree = "<group>"; };
+		5591381D1409409E008BA73A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		55913821140964CE008BA73A /* crystalPurple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crystalPurple.png; path = "iGotIt Images/crystalPurple.png"; sourceTree = "<group>"; };
+		55913822140964CE008BA73A /* crystalRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crystalRed.png; path = "iGotIt Images/crystalRed.png"; sourceTree = "<group>"; };
+		5591382614096DDF008BA73A /* crystalGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crystalGreen.png; path = "iGotIt Images/crystalGreen.png"; sourceTree = "<group>"; };
+		5591CEF213E455E900D43C03 /* iGotIt_v1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGotIt_v1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5591CEF613E455E900D43C03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5591CEF813E455E900D43C03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5591CEFA13E455E900D43C03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5591CEFC13E455E900D43C03 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		5591CF0013E455E900D43C03 /* iGotIt_HD-Info.plist */ = {isa = PBXFileReference; path = "iGotIt_HD-Info.plist"; sourceTree = "<group>"; };
+		5591CF0013E455E900D43C03 /* iGotIt_HD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iGotIt_HD-Info.plist"; sourceTree = "<group>"; };
 		5591CF0213E455E900D43C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5591CF0413E455E900D43C03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5591CF0613E455E900D43C03 /* iGotIt_HD-Prefix.pch */ = {isa = PBXFileReference; path = "iGotIt_HD-Prefix.pch"; sourceTree = "<group>"; };
-		5591CF0713E455E900D43C03 /* iGotIt_HDAppDelegate.h */ = {isa = PBXFileReference; path = iGotIt_HDAppDelegate.h; sourceTree = "<group>"; };
+		5591CF0613E455E900D43C03 /* iGotIt_HD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iGotIt_HD-Prefix.pch"; sourceTree = "<group>"; };
+		5591CF0713E455E900D43C03 /* iGotIt_HDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iGotIt_HDAppDelegate.h; sourceTree = "<group>"; };
 		5591CF0813E455E900D43C03 /* iGotIt_HDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iGotIt_HDAppDelegate.m; sourceTree = "<group>"; };
 		5591CF0B13E455E900D43C03 /* iGotIt_HD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iGotIt_HD.xcdatamodel; sourceTree = "<group>"; };
-		5591CF0D13E455E900D43C03 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		5591CF0D13E455E900D43C03 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		5591CF0E13E455E900D43C03 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		5591CF1013E455E900D43C03 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
-		5591CF1113E455E900D43C03 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		5591CF1413E455E900D43C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
-		5591CF1713E455E900D43C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		5591CF1E13E4577D00D43C03 /* ActionClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionClass.h; sourceTree = "<group>"; };
+		5591CF1F13E4577D00D43C03 /* ActionClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionClass.m; sourceTree = "<group>"; };
+		5591CF8B13E4719800D43C03 /* DetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewController.h; sourceTree = "<group>"; };
+		5591CF8C13E4719800D43C03 /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewController.m; sourceTree = "<group>"; };
+		5591CF8D13E4719800D43C03 /* DetailTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableViewController.xib; sourceTree = "<group>"; };
+		5591CF9713E4789000D43C03 /* ChildTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildTableViewController.h; sourceTree = "<group>"; };
+		5591CF9813E4789000D43C03 /* ChildTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildTableViewController.m; sourceTree = "<group>"; };
+		559317F01458BDF50025DB4F /* AppLogo-retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppLogo-retina.png"; sourceTree = "<group>"; };
+		559317F21458BE800025DB4F /* AppLogo-57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppLogo-57x57.png"; sourceTree = "<group>"; };
+		559317F61458C1D10025DB4F /* IPhoneParentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhoneParentTableViewController.h; sourceTree = "<group>"; };
+		559317F71458C1D10025DB4F /* IPhoneParentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhoneParentTableViewController.m; sourceTree = "<group>"; };
+		559317F91458C4E10025DB4F /* IPhoneFavoriteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhoneFavoriteTableViewController.h; sourceTree = "<group>"; };
+		559317FA1458C4E10025DB4F /* IPhoneFavoriteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhoneFavoriteTableViewController.m; sourceTree = "<group>"; };
+		559317FC1458C4F20025DB4F /* IPhoneChildTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhoneChildTableViewController.h; sourceTree = "<group>"; };
+		559317FD1458C4F20025DB4F /* IPhoneChildTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhoneChildTableViewController.m; sourceTree = "<group>"; };
+		559317FF1458D0E00025DB4F /* IPhoneItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPhoneItemViewController.h; sourceTree = "<group>"; };
+		559318001458D0E00025DB4F /* IPhoneItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPhoneItemViewController.m; sourceTree = "<group>"; };
+		559B3EB913E9C4B70023D9EE /* AddItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemTableViewController.h; sourceTree = "<group>"; };
+		559B3EBA13E9C4B70023D9EE /* AddItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemTableViewController.m; sourceTree = "<group>"; };
+		559B3EBB13E9C4B70023D9EE /* AddItemTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddItemTableViewController.xib; sourceTree = "<group>"; };
+		559B3ED313E9DC300023D9EE /* iGotIt_HD 2.xcdatamodel */ = {isa = PBXFileReference; explicitFileType = wrapper.xcdatamodeld; name = "iGotIt_HD 2.xcdatamodel"; path = "/Users/Felipe/Desktop/iPhone App Development/Production/iGotIt_HD/iGotIt_HD/iGotIt_HD.xcdatamodeld/iGotIt_HD 2.xcdatamodel"; sourceTree = "<absolute>"; };
+		559B3ED713E9FBC40023D9EE /* iGotIt_HD 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iGotIt_HD 3.xcdatamodel"; sourceTree = "<group>"; };
+		559B3EE313F71CC30023D9EE /* ColorGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorGridViewController.h; sourceTree = "<group>"; };
+		559B3EE413F71CC30023D9EE /* ColorGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorGridViewController.m; sourceTree = "<group>"; };
+		559B3EEA13F75FFA0023D9EE /* UIColorRGBValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColorRGBValueTransformer.h; sourceTree = "<group>"; };
+		559B3EEB13F75FFB0023D9EE /* UIColorRGBValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColorRGBValueTransformer.m; sourceTree = "<group>"; };
+		559B3EF713F9FAE70023D9EE /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		559B3EF813F9FAE70023D9EE /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+		559B3EFE13F9FEC00023D9EE /* GradientFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientFunction.h; sourceTree = "<group>"; };
+		559B3EFF13F9FEC00023D9EE /* GradientFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientFunction.m; sourceTree = "<group>"; };
+		55B193A0144FC0A900F38986 /* UITB_GOLD_NRM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UITB_GOLD_NRM.png; path = "iGotIt Images/UITB_GOLD_NRM.png"; sourceTree = "<group>"; };
+		55B193A1144FC0A900F38986 /* UITB_GOLD_SEL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UITB_GOLD_SEL.png; path = "iGotIt Images/UITB_GOLD_SEL.png"; sourceTree = "<group>"; };
+		55B193A41454EB3E00F38986 /* FAV_GOLD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FAV_GOLD.png; path = "iGotIt Images/FAV_GOLD.png"; sourceTree = "<group>"; };
+		55B193A51454EB3E00F38986 /* FAV_GREEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FAV_GREEN.png; path = "iGotIt Images/FAV_GREEN.png"; sourceTree = "<group>"; };
+		55B193A61454EB3F00F38986 /* FAV_PURPLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FAV_PURPLE.png; path = "iGotIt Images/FAV_PURPLE.png"; sourceTree = "<group>"; };
+		55B193AA1454F7D100F38986 /* FAV_SEL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FAV_SEL.png; path = "iGotIt Images/FAV_SEL.png"; sourceTree = "<group>"; };
+		55B193AC1454FEC500F38986 /* CHK_ALL_GOLD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CHK_ALL_GOLD.png; path = "iGotIt Images/CHK_ALL_GOLD.png"; sourceTree = "<group>"; };
+		55B193AD1454FEC600F38986 /* CHK_ALL_GREEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CHK_ALL_GREEN.png; path = "iGotIt Images/CHK_ALL_GREEN.png"; sourceTree = "<group>"; };
+		55B193AE1454FEC600F38986 /* CHK_ALL_PURPLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CHK_ALL_PURPLE.png; path = "iGotIt Images/CHK_ALL_PURPLE.png"; sourceTree = "<group>"; };
+		55B193AF1454FEC700F38986 /* CHK_GOLD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CHK_GOLD.png; path = "iGotIt Images/CHK_GOLD.png"; sourceTree = "<group>"; };
+		55B193B01454FEC800F38986 /* CHK_GREEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CHK_GREEN.png; path = "iGotIt Images/CHK_GREEN.png"; sourceTree = "<group>"; };
+		55B193B11454FEC800F38986 /* CHK_PURPLE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CHK_PURPLE.png; path = "iGotIt Images/CHK_PURPLE.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +229,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5591381E1409409E008BA73A /* QuartzCore.framework in Frameworks */,
 				5591CEF713E455E900D43C03 /* UIKit.framework in Frameworks */,
 				5591CEF913E455E900D43C03 /* Foundation.framework in Frameworks */,
 				5591CEFB13E455E900D43C03 /* CoreGraphics.framework in Frameworks */,
@@ -57,9 +240,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55061DE21437933D00AB8A23 /* HelpMenuImages */ = {
+			isa = PBXGroup;
+			children = (
+				5510A8091438E77000B4AC09 /* Confirm.png */,
+				5510A80A1438E77000B4AC09 /* delete.png */,
+				5510A80B1438E77000B4AC09 /* Favorites.png */,
+				5510A80C1438E77000B4AC09 /* Insert.png */,
+				5510A80D1438E77000B4AC09 /* Plus.png */,
+				5510A80E1438E77000B4AC09 /* RapidAdd.png */,
+			);
+			name = HelpMenuImages;
+			sourceTree = "<group>";
+		};
+		551915D613E64025002033F5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				55061DE21437933D00AB8A23 /* HelpMenuImages */,
+				5509B6E6141C64C30030E969 /* UITB_GREEN_NRM.png */,
+				5509B6E7141C64C50030E969 /* UITB_GREEN_SEL.png */,
+				55B193A0144FC0A900F38986 /* UITB_GOLD_NRM.png */,
+				55B193A1144FC0A900F38986 /* UITB_GOLD_SEL.png */,
+				5509B6E2141BACEB0030E969 /* UITB_PURPLE_NRM.png */,
+				5509B6E3141BACEB0030E969 /* UITB_PURPLE_SEL.png */,
+				5516067A140EF087006F4D34 /* UIToolbarButton2StateNormal.png */,
+				5516067B140EF087006F4D34 /* UIToolbarButton2StateSelected.png */,
+				551F63191409BA98008B377E /* UIToolbarButtonStateNormal.png */,
+				551F631A1409BA98008B377E /* UIToolbarButtonStateSelected.png */,
+				55B193A41454EB3E00F38986 /* FAV_GOLD.png */,
+				55B193A51454EB3E00F38986 /* FAV_GREEN.png */,
+				55B193A61454EB3F00F38986 /* FAV_PURPLE.png */,
+				55B193AA1454F7D100F38986 /* FAV_SEL.png */,
+				5591382614096DDF008BA73A /* crystalGreen.png */,
+				55913821140964CE008BA73A /* crystalPurple.png */,
+				55913822140964CE008BA73A /* crystalRed.png */,
+				5591380514087BBE008BA73A /* CheckBox1Checked.png */,
+				5591380614087BBE008BA73A /* CHK_BOX.png */,
+				55B193AC1454FEC500F38986 /* CHK_ALL_GOLD.png */,
+				55B193AD1454FEC600F38986 /* CHK_ALL_GREEN.png */,
+				55B193AE1454FEC600F38986 /* CHK_ALL_PURPLE.png */,
+				55B193AF1454FEC700F38986 /* CHK_GOLD.png */,
+				55B193B01454FEC800F38986 /* CHK_GREEN.png */,
+				55B193B11454FEC800F38986 /* CHK_PURPLE.png */,
+				55061DF11437970800AB8A23 /* UNCHK_ALL.png */,
+				55758012146050E90037A98E /* TAB_LIST.png */,
+				55758013146050E90037A98E /* TAB_LIST@2x.png */,
+				55080867145DE631004F0878 /* TAB_FAV.png */,
+				5575801014604F3A0037A98E /* TAB_FAV@2x.png */,
+				5591380914087BBE008BA73A /* orderAscending.png */,
+				5591380A14087BBE008BA73A /* orderDescending.png */,
+				5591380B14087BBE008BA73A /* orderManual.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		5591381514093570008BA73A /* Other Views */ = {
+			isa = PBXGroup;
+			children = (
+				5508086A145E0939004F0878 /* NotificationPanel.h */,
+				5508086B145E0939004F0878 /* NotificationPanel.m */,
+				5591381614093633008BA73A /* NotificationView.h */,
+				5591381714093633008BA73A /* NotificationView.m */,
+				557580161460C0C10037A98E /* NPCloseButton.h */,
+				557580171460C0C10037A98E /* NPCloseButton.m */,
+				550998061433F5320035D097 /* HelpView.h */,
+				550998071433F5320035D097 /* HelpView.m */,
+				55395390147703C700CD4C2F /* UIVerticalToolBar.h */,
+				55395391147703C700CD4C2F /* UIVerticalToolBar.m */,
+			);
+			name = "Other Views";
+			sourceTree = "<group>";
+		};
 		5591CEE713E455E800D43C03 = {
 			isa = PBXGroup;
 			children = (
+				559317F21458BE800025DB4F /* AppLogo-57x57.png */,
+				559317F01458BDF50025DB4F /* AppLogo-retina.png */,
+				554836EA144767CD00EC45ED /* AppLogo-72x72.png */,
 				5591CEFE13E455E900D43C03 /* iGotIt_HD */,
 				5591CEF513E455E900D43C03 /* Frameworks */,
 				5591CEF313E455E900D43C03 /* Products */,
@@ -69,7 +326,7 @@
 		5591CEF313E455E900D43C03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5591CEF213E455E900D43C03 /* iGotIt_HD.app */,
+				5591CEF213E455E900D43C03 /* iGotIt_v1.1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +334,7 @@
 		5591CEF513E455E900D43C03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5591381D1409409E008BA73A /* QuartzCore.framework */,
 				5591CEF613E455E900D43C03 /* UIKit.framework */,
 				5591CEF813E455E900D43C03 /* Foundation.framework */,
 				5591CEFA13E455E900D43C03 /* CoreGraphics.framework */,
@@ -88,15 +346,14 @@
 		5591CEFE13E455E900D43C03 /* iGotIt_HD */ = {
 			isa = PBXGroup;
 			children = (
+				553953971478651D00CD4C2F /* iGotIt_v1.1.entitlements */,
 				5591CF0713E455E900D43C03 /* iGotIt_HDAppDelegate.h */,
 				5591CF0813E455E900D43C03 /* iGotIt_HDAppDelegate.m */,
-				5591CF0D13E455E900D43C03 /* MasterViewController.h */,
-				5591CF0E13E455E900D43C03 /* MasterViewController.m */,
-				5591CF1013E455E900D43C03 /* DetailViewController.h */,
-				5591CF1113E455E900D43C03 /* DetailViewController.m */,
-				5591CF1313E455E900D43C03 /* MasterViewController.xib */,
-				5591CF1613E455E900D43C03 /* DetailViewController.xib */,
-				5591CF0A13E455E900D43C03 /* iGotIt_HD.xcdatamodeld */,
+				559317F51458C1070025DB4F /* iPhone Display */,
+				5591381514093570008BA73A /* Other Views */,
+				5591CF3513E458FF00D43C03 /* Custom Classes */,
+				551915D613E64025002033F5 /* Images */,
+				5591CF3413E4584100D43C03 /* CoreData */,
 				5591CEFF13E455E900D43C03 /* Supporting Files */,
 			);
 			path = iGotIt_HD;
@@ -109,8 +366,150 @@
 				5591CF0113E455E900D43C03 /* InfoPlist.strings */,
 				5591CF0413E455E900D43C03 /* main.m */,
 				5591CF0613E455E900D43C03 /* iGotIt_HD-Prefix.pch */,
+				55357A49142A897500F3C9DB /* Settings.bundle */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5591CF3013E457EA00D43C03 /* ChildTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5591CF9713E4789000D43C03 /* ChildTableViewController.h */,
+				5591CF9813E4789000D43C03 /* ChildTableViewController.m */,
+			);
+			name = ChildTableViewController;
+			sourceTree = "<group>";
+		};
+		5591CF3113E457FB00D43C03 /* Split View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5591CF0D13E455E900D43C03 /* MasterViewController.h */,
+				5591CF0E13E455E900D43C03 /* MasterViewController.m */,
+				5591CF1313E455E900D43C03 /* MasterViewController.xib */,
+				5591CF3213E4580300D43C03 /* ParentTableViewController */,
+			);
+			name = "Split View Controller";
+			sourceTree = "<group>";
+		};
+		5591CF3213E4580300D43C03 /* ParentTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5591CF8B13E4719800D43C03 /* DetailTableViewController.h */,
+				5591CF8C13E4719800D43C03 /* DetailTableViewController.m */,
+				5591CF8D13E4719800D43C03 /* DetailTableViewController.xib */,
+				5591CF3013E457EA00D43C03 /* ChildTableViewController */,
+			);
+			name = ParentTableViewController;
+			sourceTree = "<group>";
+		};
+		5591CF3413E4584100D43C03 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5591CF0A13E455E900D43C03 /* iGotIt_HD.xcdatamodeld */,
+				5510A81C143CFEC900B4AC09 /* Item.h */,
+				5510A81D143CFEC900B4AC09 /* Item.m */,
+				5510A819143CFEC900B4AC09 /* Parent.h */,
+				5510A81A143CFEC900B4AC09 /* Parent.m */,
+				5510A816143CFEC800B4AC09 /* Child.h */,
+				5510A817143CFEC800B4AC09 /* Child.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		5591CF3513E458FF00D43C03 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				559B3EF613F763350023D9EE /* Overrides */,
+				5591CF1E13E4577D00D43C03 /* ActionClass.h */,
+				5591CF1F13E4577D00D43C03 /* ActionClass.m */,
+				553953941478629A00CD4C2F /* iCloudCoreData.h */,
+				553953951478629A00CD4C2F /* iCloudCoreData.m */,
+				55357A4C142A8FD800F3C9DB /* SettingsClass.h */,
+				55357A4D142A8FD800F3C9DB /* SettingsClass.m */,
+				551F63151409A821008B377E /* DrawingClass.h */,
+				551F63161409A821008B377E /* DrawingClass.m */,
+				559B3EF713F9FAE70023D9EE /* CustomCellBackground.h */,
+				559B3EF813F9FAE70023D9EE /* CustomCellBackground.m */,
+				5509B6DE141AC30D0030E969 /* CustomModalAlert.h */,
+				5509B6DF141AC30D0030E969 /* CustomModalAlert.m */,
+				5522AADE145BA277005562F2 /* CoreAnimation.h */,
+				5522AADF145BA277005562F2 /* CoreAnimation.m */,
+			);
+			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		559317F41458C0CA0025DB4F /* iPad Display */ = {
+			isa = PBXGroup;
+			children = (
+				559B3EB313E9C3620023D9EE /* PopoverViews */,
+				5591CF3113E457FB00D43C03 /* Split View Controller */,
+				559318031458DA720025DB4F /* iPad Cells */,
+			);
+			name = "iPad Display";
+			sourceTree = "<group>";
+		};
+		559317F51458C1070025DB4F /* iPhone Display */ = {
+			isa = PBXGroup;
+			children = (
+				559317F61458C1D10025DB4F /* IPhoneParentTableViewController.h */,
+				559317F71458C1D10025DB4F /* IPhoneParentTableViewController.m */,
+				559317F91458C4E10025DB4F /* IPhoneFavoriteTableViewController.h */,
+				559317FA1458C4E10025DB4F /* IPhoneFavoriteTableViewController.m */,
+				559317FD1458C4F20025DB4F /* IPhoneChildTableViewController.m */,
+				559318021458D0E60025DB4F /* Additional Views */,
+				559317F41458C0CA0025DB4F /* iPad Display */,
+			);
+			name = "iPhone Display";
+			sourceTree = "<group>";
+		};
+		559318021458D0E60025DB4F /* Additional Views */ = {
+			isa = PBXGroup;
+			children = (
+				559317FC1458C4F20025DB4F /* IPhoneChildTableViewController.h */,
+				559317FF1458D0E00025DB4F /* IPhoneItemViewController.h */,
+				559318001458D0E00025DB4F /* IPhoneItemViewController.m */,
+				5522AAE2145DA843005562F2 /* IPhoneColorGridViewController.h */,
+				5522AAE3145DA843005562F2 /* IPhoneColorGridViewController.m */,
+			);
+			name = "Additional Views";
+			sourceTree = "<group>";
+		};
+		559318031458DA720025DB4F /* iPad Cells */ = {
+			isa = PBXGroup;
+			children = (
+				554F4AF813E87BF900450895 /* ParentCell.h */,
+				554F4AF913E87BF900450895 /* ParentCell.m */,
+				551F6327140AFEBC008B377E /* FavoriteCell.h */,
+				551F6328140AFECB008B377E /* FavoriteCell.m */,
+			);
+			name = "iPad Cells";
+			sourceTree = "<group>";
+		};
+		559B3EB313E9C3620023D9EE /* PopoverViews */ = {
+			isa = PBXGroup;
+			children = (
+				559B3EB913E9C4B70023D9EE /* AddItemTableViewController.h */,
+				559B3EBA13E9C4B70023D9EE /* AddItemTableViewController.m */,
+				559B3EBB13E9C4B70023D9EE /* AddItemTableViewController.xib */,
+				559B3EE313F71CC30023D9EE /* ColorGridViewController.h */,
+				559B3EE413F71CC30023D9EE /* ColorGridViewController.m */,
+			);
+			name = PopoverViews;
+			sourceTree = "<group>";
+		};
+		559B3EF613F763350023D9EE /* Overrides */ = {
+			isa = PBXGroup;
+			children = (
+				554F4AF513E86CEC00450895 /* ControlExtras.h */,
+				554F4AF613E86CEC00450895 /* ControlExtras.m */,
+				559B3EEA13F75FFA0023D9EE /* UIColorRGBValueTransformer.h */,
+				559B3EEB13F75FFB0023D9EE /* UIColorRGBValueTransformer.m */,
+				559B3EFE13F9FEC00023D9EE /* GradientFunction.h */,
+				559B3EFF13F9FEC00023D9EE /* GradientFunction.m */,
+				551F6320140A78F2008B377E /* CustomBarButtonItem.h */,
+				551F6321140A78F2008B377E /* CustomBarButtonItem.m */,
+			);
+			name = Overrides;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +529,7 @@
 			);
 			name = iGotIt_HD;
 			productName = iGotIt_HD;
-			productReference = 5591CEF213E455E900D43C03 /* iGotIt_HD.app */;
+			productReference = 5591CEF213E455E900D43C03 /* iGotIt_v1.1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,6 +537,10 @@
 /* Begin PBXProject section */
 		5591CEE913E455E800D43C03 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Phillip Dieppa";
+			};
 			buildConfigurationList = 5591CEEC13E455E800D43C03 /* Build configuration list for PBXProject "iGotIt_HD" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -162,7 +565,51 @@
 			files = (
 				5591CF0313E455E900D43C03 /* InfoPlist.strings in Resources */,
 				5591CF1513E455E900D43C03 /* MasterViewController.xib in Resources */,
-				5591CF1813E455E900D43C03 /* DetailViewController.xib in Resources */,
+				5591CF8F13E4719800D43C03 /* DetailTableViewController.xib in Resources */,
+				559B3EBD13E9C4B70023D9EE /* AddItemTableViewController.xib in Resources */,
+				5591380E14087BBE008BA73A /* CheckBox1Checked.png in Resources */,
+				5591380F14087BBE008BA73A /* CHK_BOX.png in Resources */,
+				5591381214087BBE008BA73A /* orderAscending.png in Resources */,
+				5591381314087BBE008BA73A /* orderDescending.png in Resources */,
+				5591381414087BBE008BA73A /* orderManual.png in Resources */,
+				55913824140964CE008BA73A /* crystalPurple.png in Resources */,
+				55913825140964CE008BA73A /* crystalRed.png in Resources */,
+				5591382714096DDF008BA73A /* crystalGreen.png in Resources */,
+				551F631B1409BA98008B377E /* UIToolbarButtonStateNormal.png in Resources */,
+				551F631C1409BA98008B377E /* UIToolbarButtonStateSelected.png in Resources */,
+				5516067C140EF087006F4D34 /* UIToolbarButton2StateNormal.png in Resources */,
+				5516067D140EF087006F4D34 /* UIToolbarButton2StateSelected.png in Resources */,
+				5509B6E4141BACEB0030E969 /* UITB_PURPLE_NRM.png in Resources */,
+				5509B6E5141BACEB0030E969 /* UITB_PURPLE_SEL.png in Resources */,
+				5509B6E8141C64C60030E969 /* UITB_GREEN_NRM.png in Resources */,
+				5509B6E9141C64C60030E969 /* UITB_GREEN_SEL.png in Resources */,
+				55357A4A142A897500F3C9DB /* Settings.bundle in Resources */,
+				55061DF31437970800AB8A23 /* UNCHK_ALL.png in Resources */,
+				5510A80F1438E77000B4AC09 /* Confirm.png in Resources */,
+				5510A8101438E77000B4AC09 /* delete.png in Resources */,
+				5510A8111438E77000B4AC09 /* Favorites.png in Resources */,
+				5510A8121438E77000B4AC09 /* Insert.png in Resources */,
+				5510A8131438E77000B4AC09 /* Plus.png in Resources */,
+				5510A8141438E77000B4AC09 /* RapidAdd.png in Resources */,
+				554836EB144767CE00EC45ED /* AppLogo-72x72.png in Resources */,
+				55B193A2144FC0A900F38986 /* UITB_GOLD_NRM.png in Resources */,
+				55B193A3144FC0A900F38986 /* UITB_GOLD_SEL.png in Resources */,
+				55B193A71454EB4000F38986 /* FAV_GOLD.png in Resources */,
+				55B193A81454EB4000F38986 /* FAV_GREEN.png in Resources */,
+				55B193A91454EB4000F38986 /* FAV_PURPLE.png in Resources */,
+				55B193AB1454F7D100F38986 /* FAV_SEL.png in Resources */,
+				55B193B21454FEC800F38986 /* CHK_ALL_GOLD.png in Resources */,
+				55B193B31454FEC800F38986 /* CHK_ALL_GREEN.png in Resources */,
+				55B193B41454FEC800F38986 /* CHK_ALL_PURPLE.png in Resources */,
+				55B193B51454FEC800F38986 /* CHK_GOLD.png in Resources */,
+				55B193B61454FEC800F38986 /* CHK_GREEN.png in Resources */,
+				55B193B71454FEC800F38986 /* CHK_PURPLE.png in Resources */,
+				559317F11458BDF50025DB4F /* AppLogo-retina.png in Resources */,
+				559317F31458BE800025DB4F /* AppLogo-57x57.png in Resources */,
+				55080868145DE631004F0878 /* TAB_FAV.png in Resources */,
+				5575801114604F3A0037A98E /* TAB_FAV@2x.png in Resources */,
+				55758014146050E90037A98E /* TAB_LIST.png in Resources */,
+				55758015146050E90037A98E /* TAB_LIST@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,9 +622,38 @@
 			files = (
 				5591CF0513E455E900D43C03 /* main.m in Sources */,
 				5591CF0913E455E900D43C03 /* iGotIt_HDAppDelegate.m in Sources */,
-				5591CF0C13E455E900D43C03 /* iGotIt_HD.xcdatamodeld in Sources */,
 				5591CF0F13E455E900D43C03 /* MasterViewController.m in Sources */,
-				5591CF1213E455E900D43C03 /* DetailViewController.m in Sources */,
+				5591CF2613E4577D00D43C03 /* ActionClass.m in Sources */,
+				5591CF8E13E4719800D43C03 /* DetailTableViewController.m in Sources */,
+				5591CF9A13E4789000D43C03 /* ChildTableViewController.m in Sources */,
+				554F4AF713E86CEC00450895 /* ControlExtras.m in Sources */,
+				554F4AFA13E87BF900450895 /* ParentCell.m in Sources */,
+				559B3EBC13E9C4B70023D9EE /* AddItemTableViewController.m in Sources */,
+				559B3EE513F71CC30023D9EE /* ColorGridViewController.m in Sources */,
+				559B3EEC13F75FFB0023D9EE /* UIColorRGBValueTransformer.m in Sources */,
+				559B3EF913F9FAE80023D9EE /* CustomCellBackground.m in Sources */,
+				559B3F0013F9FEC20023D9EE /* GradientFunction.m in Sources */,
+				5591381814093633008BA73A /* NotificationView.m in Sources */,
+				551F63171409A821008B377E /* DrawingClass.m in Sources */,
+				551F6322140A78F2008B377E /* CustomBarButtonItem.m in Sources */,
+				551F6329140AFEE0008B377E /* FavoriteCell.m in Sources */,
+				5509B6E0141AC30E0030E969 /* CustomModalAlert.m in Sources */,
+				5557E0B6141D7611006965F3 /* iGotIt_HD.xcdatamodeld in Sources */,
+				55357A4E142A8FD800F3C9DB /* SettingsClass.m in Sources */,
+				550998081433F5320035D097 /* HelpView.m in Sources */,
+				5510A818143CFEC800B4AC09 /* Child.m in Sources */,
+				5510A81B143CFEC900B4AC09 /* Parent.m in Sources */,
+				5510A81E143CFEC900B4AC09 /* Item.m in Sources */,
+				559317F81458C1D10025DB4F /* IPhoneParentTableViewController.m in Sources */,
+				559317FB1458C4E10025DB4F /* IPhoneFavoriteTableViewController.m in Sources */,
+				559317FE1458C4F20025DB4F /* IPhoneChildTableViewController.m in Sources */,
+				559318011458D0E00025DB4F /* IPhoneItemViewController.m in Sources */,
+				5522AAE0145BA277005562F2 /* CoreAnimation.m in Sources */,
+				5522AAE4145DA843005562F2 /* IPhoneColorGridViewController.m in Sources */,
+				5508086C145E0939004F0878 /* NotificationPanel.m in Sources */,
+				557580181460C0C10037A98E /* NPCloseButton.m in Sources */,
+				55395392147703C700CD4C2F /* UIVerticalToolBar.m in Sources */,
+				553953961478629A00CD4C2F /* iCloudCoreData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,14 +676,6 @@
 			name = MasterViewController.xib;
 			sourceTree = "<group>";
 		};
-		5591CF1613E455E900D43C03 /* DetailViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5591CF1713E455E900D43C03 /* en */,
-			);
-			name = DetailViewController.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -217,7 +685,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Phillip Dieppa (Z42KXN258N)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Phillip Dieppa (Z42KXN258N)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -232,6 +701,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "C9006430-A829-4CBB-AA9B-77445BB04627";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C9006430-A829-4CBB-AA9B-77445BB04627";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -243,7 +714,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Phillip Dieppa";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Phillip Dieppa";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -252,6 +724,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "1190F9DD-DDDC-4EC2-A839-1B93BC0AD281";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1190F9DD-DDDC-4EC2-A839-1B93BC0AD281";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
@@ -261,10 +735,13 @@
 		5591CF1C13E455E900D43C03 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iGotIt_HD/iGotIt_v1.1.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iGotIt_HD/iGotIt_HD-Prefix.pch";
 				INFOPLIST_FILE = "iGotIt_HD/iGotIt_HD-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = iGotIt_v1.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -272,10 +749,13 @@
 		5591CF1D13E455E900D43C03 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iGotIt_HD/iGotIt_v1.1.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iGotIt_HD/iGotIt_HD-Prefix.pch";
 				INFOPLIST_FILE = "iGotIt_HD/iGotIt_HD-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = iGotIt_v1.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -299,6 +779,7 @@
 				5591CF1D13E455E900D43C03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
@@ -306,9 +787,13 @@
 		5591CF0A13E455E900D43C03 /* iGotIt_HD.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				5557E0B5141D6FAD006965F3 /* iGotIt_HD 1.xcdatamodel */,
+				559B3ED713E9FBC40023D9EE /* iGotIt_HD 3.xcdatamodel */,
+				559B3ED313E9DC300023D9EE /* iGotIt_HD 2.xcdatamodel */,
 				5591CF0B13E455E900D43C03 /* iGotIt_HD.xcdatamodel */,
+				5510A81F143CFF7A00B4AC09 /* iGotIt_HD Release v1.xcdatamodel */,
 			);
-			currentVersion = 5591CF0B13E455E900D43C03 /* iGotIt_HD.xcdatamodel */;
+			currentVersion = 5510A81F143CFF7A00B4AC09 /* iGotIt_HD Release v1.xcdatamodel */;
 			path = iGotIt_HD.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
